@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -18,8 +13,17 @@
        android:background="@drawable/btn_red"
        android:text="RedButton" >
 </Button>
-   <Button android:text="BlackButton" android:id="@+id/button6" android:background="@drawable/btn_black" style="@style/ButtonText"></Button>
-   <Button android:text="PurpleButton" android:id="@+id/button6" android:background="@drawable/btn_purple" style="@style/ButtonText"></Button>
+   <Button 
+       android:text="BlackButton" 
+       android:id="@+id/button6" 
+       android:background="@drawable/btn_black" 
+       style="@style/ButtonText">
+   </Button>
+   <Button 
+       android:text="PurpleButton" 
+       android:id="@+id/button6" 
+       android:background="@drawable/btn_purple" 
+       style="@style/ButtonText">
+   </Button>
 </LinearLayout>
 
-</LinearLayout>
